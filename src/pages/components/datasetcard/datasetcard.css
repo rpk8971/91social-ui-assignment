@@ -1,0 +1,41 @@
+.dataset-card-container {
+  padding: 18px 26px 28px 26px;
+}
+
+.dataset-content p {
+  margin: 0px;
+  font-size: 12px;
+}
+
+.dataset-content :nth-child(1) {
+  font-weight: 600;
+}
+
+.dataset-content :nth-child(2) {
+  font-weight: 350;
+  color: #73797e;
+}
+
+/* css styling for tabs */
+
+@media (max-width: 760px) {
+  .dataset-card-container {
+    padding: 15px 23px 25px 23px;
+  }
+
+  .dataset-content p {
+    font-size: 11px;
+  }
+}
+
+/* css styling for mobiles */
+
+@media (max-width: 480px) {
+  .dataset-card-container {
+    padding: 13px 20px 23px 20px;
+  }
+
+  .dataset-content p {
+    font-size: 9px;
+  }
+}

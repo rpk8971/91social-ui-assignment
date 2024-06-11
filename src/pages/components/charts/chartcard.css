@@ -1,0 +1,66 @@
+.chart-card-heading {
+  font-size: 15px;
+  font-weight: 650;
+  margin-bottom: 13px;
+}
+
+.delete-icon-style {
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+}
+
+.chart-card-content {
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.chart-card-subcontent {
+  font-size: 10px;
+  color: grey;
+  font-weight: 550;
+}
+
+.custom-progress-bar {
+  height: 5px !important;
+}
+
+.progressbar-heading {
+  font-size: 9px;
+}
+
+.accordion-button {
+  background-color: #fff !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #fff !important;
+}
+
+.chart-card-container {
+  height: 160px !important;
+}
+
+.apexcharts-menu-icon {
+  display: none;
+}
+
+.apexcharts-toolbar {
+  display: none !important;
+}
+
+/* css styling for tabs */
+
+@media (max-width: 760px) {
+  .chart-card-heading {
+    font-size: 13px;
+  }
+}
+
+/* css styling for mobiles */
+
+@media (max-width: 480px) {
+  .chart-card-heading {
+    font-size: 11px;
+  }
+}

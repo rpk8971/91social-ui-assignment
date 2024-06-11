@@ -1,0 +1,53 @@
+.working-version-container {
+  overflow: scroll;
+}
+
+.working-version-table {
+  border: 1px solid #e9ebec;
+}
+
+.working-version-table tr {
+  border: 1px solid #e9ebec;
+}
+
+.table-content-bg-color {
+  background-color: #ffe5e5;
+}
+
+.working-version-table-heading {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 550;
+  text-align: center;
+  padding: 6px;
+}
+
+.working-version-table-content {
+  font-size: 10px;
+  text-align: center;
+  padding: 6px;
+}
+
+/* css styling for tabs */
+
+@media (max-width: 760px) {
+  .working-version-table-heading {
+    font-size: 7px;
+    font-weight: 550;
+  }
+  .working-version-table-content {
+    font-size: 7px;
+  }
+}
+
+/* css styling for mobiles */
+
+@media (max-width: 480px) {
+  .working-version-table-heading {
+    font-size: 5px;
+    font-weight: 550;
+  }
+  .working-version-table-content {
+    font-size: 5px;
+  }
+}

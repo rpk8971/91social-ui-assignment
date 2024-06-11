@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ChartsCard from "./pages/components/charts/ChartsCard";
+import DataSetCard from "./pages/components/datasetcard/DataSetCard";
+import TopCard from "./pages/components/topCard/TopCard";
+import TransformationCard from "./pages/components/transformation/TransformationCard";
+import WorkingVersionCard from "./pages/components/workingversion/WorkingVersionCard";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopCard />
+      <DataSetCard />
+      <TransformationCard />
+      <ChartsCard />
+      <WorkingVersionCard />
     </div>
   );
 }

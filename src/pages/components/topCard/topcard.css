@@ -1,0 +1,55 @@
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.topcard-content {
+  display: flex;
+  gap: 21px;
+}
+
+.topcard-heading {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.topcard-info {
+  font-size: 10px;
+  color: #818990;
+  margin: 0;
+}
+
+/* css styling for tabs */
+
+@media (max-width: 760px) {
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .topcard-info {
+    font-size: 9.6px;
+    color: #818990;
+    margin: 0;
+  }
+}
+
+/* css styling for mobiles */
+
+@media (max-width: 480px) {
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .topcard-heading {
+    font-size: 12px;
+  }
+
+  .topcard-info {
+    font-size: 8px;
+    color: #818990;
+    margin: 0;
+  }
+}
